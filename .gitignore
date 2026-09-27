@@ -1,0 +1,19 @@
+.env
+backend/.venv/
+__pycache__/
+*.pyc
+data/*.db
+backend/uploads/
+# Dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Temporary development / QA scripts
+fix_*.js
+/test_*.py
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
